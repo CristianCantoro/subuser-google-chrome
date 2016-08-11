@@ -1,0 +1,21 @@
+{
+ "description": "The Google Chrome web browser",
+ "maintainer": "Cristian Consonni <kikkocristian (at) gmail (dot) com",
+ "executable": "/subuser/start_chrome.sh",
+ "user-dirs": [
+  "Desktop",
+  "Downloads"
+ ],
+ "gui": {
+  "clipboard": true,
+  "cursors": true,
+  "border-color": "blue",
+  "system-tray": false
+ },
+ "sound-card": true,
+ "allow-network-access": true,
+ "basic-common-permissions": true,
+ "stateful-home": true,
+ "inherit-locale": true,
+ "inherit-timezone": true
+}
